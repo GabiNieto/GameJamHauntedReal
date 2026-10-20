@@ -12,6 +12,8 @@ public class player : MonoBehaviour
     public int health;
     public int treasure;
 
+
+    GameObject treasureSelection;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,6 +44,7 @@ public class player : MonoBehaviour
         if(other.CompareTag("treasure"))
         {
             isTreasure=true;
+            treasureSelection = other.gameObject;
         }
     }
 
@@ -57,7 +60,12 @@ public class player : MonoBehaviour
 
     public void Action()
     {
-        Debug.Log(isTreasure);
+        Debug.Log(treasure);
+        if(isTreasure)
+        {
+            treasure++;
+            treasureSelection.SetActive(false);
+        }
     }
 
     public void takeDamage()

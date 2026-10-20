@@ -9,6 +9,8 @@ public class player : MonoBehaviour
     Rigidbody2D rb;
     bool isTreasure = false;
 
+    public int health;
+    public int treasure;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -57,4 +59,29 @@ public class player : MonoBehaviour
     {
         Debug.Log(isTreasure);
     }
+
+    public void takeDamage()
+    {
+        health--;
+        Debug.Log("Current Health " + health);
+        if (health <= 0)
+        {
+            dead();
+        }
+
+    }
+
+    public void gainTreasure()
+    {
+        treasure++;
+        Debug.Log(treasure);
+    }
+
+    public void dead()
+    {
+        Debug.Log("You are Dead");
+    }
+
+
+
 }

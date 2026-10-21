@@ -3,17 +3,21 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
 
+    public gameManager gameManager;
+
     public float movSpeed;
     float speedX;
     float speedY;
     Rigidbody2D rb;
     bool isTreasure = false;
+    bool isMimic = false;
 
     public int health;
     public int treasure;
 
 
     GameObject treasureSelection;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -46,6 +50,11 @@ public class player : MonoBehaviour
             isTreasure=true;
             treasureSelection = other.gameObject;
         }
+
+        if(other.CompareTag("mimic"))
+        {
+            isMimic=true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -54,17 +63,27 @@ public class player : MonoBehaviour
         {
             isTreasure = false;
         }
+
+
+        if(other.CompareTag("mimic"))
+        {
+            isMimic= false;
+        }
     }
 
 
 
     public void Action()
     {
-        Debug.Log(treasure);
         if(isTreasure)
         {
-            treasure++;
+            gainTreasure();
             treasureSelection.SetActive(false);
+        }
+        Debug.Log(treasure);
+        if(isMimic)
+        {
+            takeDamage();
         }
     }
 
@@ -76,6 +95,7 @@ public class player : MonoBehaviour
         {
             dead();
         }
+        gameManager.updateData();
 
     }
 
@@ -83,11 +103,23 @@ public class player : MonoBehaviour
     {
         treasure++;
         Debug.Log(treasure);
+        gameManager.updateData();
     }
 
     public void dead()
     {
         Debug.Log("You are Dead");
+        gameManager.playerDead();
+    }
+
+    public int getHealth()
+    {
+        return health;
+    }
+
+    public int getTreasure()
+    {
+        return treasure;
     }
 
 

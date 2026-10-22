@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: de876ca6ef2d3f847967de76c6e20fa4
+guid: f85302498149a8243bb900810f59cb7f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2830071645898275730
-    second: Statue_0
+      213: 3236620881417372057
+    second: Statue (1)_0
   - first:
-      213: 130561695280464317
-    second: Statue_1
+      213: 311372741343575735
+    second: Statue (1)_1
   - first:
-      213: -3202242373155783504
-    second: Statue_2
+      213: -5552936181554314083
+    second: Statue (1)_2
   - first:
-      213: 3097904708608295069
-    second: Statue_3
+      213: -7933288471483489039
+    second: Statue (1)_3
   - first:
-      213: -6210820937634677405
-    second: Statue_4
+      213: -2140379072497165792
+    second: Statue (1)_4
   - first:
-      213: 3745443115517346739
-    second: Statue_5
+      213: -8188495348913347795
+    second: Statue (1)_5
   - first:
-      213: 4309319453413299902
-    second: Statue_6
+      213: 5032503889421136180
+    second: Statue (1)_6
   - first:
-      213: -7601154090182083770
-    second: Statue_7
+      213: -8967672403466897135
+    second: Statue (1)_7
   - first:
-      213: 4453763675091117254
-    second: Statue_8
+      213: -9106021895158734403
+    second: Statue (1)_8
   - first:
-      213: -5424469666760122395
-    second: Statue_9
+      213: 6304615141662993098
+    second: Statue (1)_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Statue_0
+      name: Statue (1)_0
       rect:
         serializedVersion: 2
         x: 8
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e64045915d099b8d0800000000000000
-      internalID: -2830071645898275730
+      spriteID: 9918e751b89caec20800000000000000
+      internalID: 3236620881417372057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_1
+      name: Statue (1)_1
       rect:
         serializedVersion: 2
         x: 56
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db1077c8b29dfc100800000000000000
-      internalID: 130561695280464317
+      spriteID: 7bef588cbd7325400800000000000000
+      internalID: 311372741343575735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_2
+      name: Statue (1)_2
       rect:
         serializedVersion: 2
         x: 104
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bc785f17895f83d0800000000000000
-      internalID: -3202242373155783504
+      spriteID: d948a0ea6f100f2b0800000000000000
+      internalID: -5552936181554314083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_3
+      name: Statue (1)_3
       rect:
         serializedVersion: 2
         x: 8
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d908b984be7fdfa20800000000000000
-      internalID: 3097904708608295069
+      spriteID: 1f46684ea2c47e190800000000000000
+      internalID: -7933288471483489039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_4
+      name: Statue (1)_4
       rect:
         serializedVersion: 2
         x: 53
@@ -230,14 +230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36df9b8734bbec9a0800000000000000
-      internalID: -6210820937634677405
+      spriteID: 02a5023e298db42e0800000000000000
+      internalID: -2140379072497165792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_5
+      name: Statue (1)_5
       rect:
         serializedVersion: 2
         x: 101
@@ -252,14 +252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b308da5bac7af330800000000000000
-      internalID: 3745443115517346739
+      spriteID: d23e41b5dde9c5e80800000000000000
+      internalID: -8188495348913347795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_6
+      name: Statue (1)_6
       rect:
         serializedVersion: 2
         x: 5
@@ -274,19 +274,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb6516c0637cdcb30800000000000000
-      internalID: 4309319453413299902
+      spriteID: 431f7b3cf9b07d540800000000000000
+      internalID: 5032503889421136180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_7
+      name: Statue (1)_7
       rect:
         serializedVersion: 2
         x: 53
         y: 50
-        width: 38
+        width: 37
         height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -296,14 +296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64b70bba0a6438690800000000000000
-      internalID: -7601154090182083770
+      spriteID: 1193849367d6c8380800000000000000
+      internalID: -8967672403466897135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_8
+      name: Statue (1)_8
       rect:
         serializedVersion: 2
         x: 101
@@ -318,19 +318,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c428572772fecd30800000000000000
-      internalID: 4453763675091117254
+      spriteID: db162260559e0a180800000000000000
+      internalID: -9106021895158734403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Statue_9
+      name: Statue (1)_9
       rect:
         serializedVersion: 2
-        x: 5
+        x: 6
         y: 2
-        width: 38
+        width: 37
         height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -340,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ef91e1049968b4b0800000000000000
-      internalID: -5424469666760122395
+      spriteID: aca2f5c611e7e7750800000000000000
+      internalID: 6304615141662993098
       vertices: []
       indices: 
       edges: []
@@ -360,16 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Statue_0: -2830071645898275730
-      Statue_1: 130561695280464317
-      Statue_2: -3202242373155783504
-      Statue_3: 3097904708608295069
-      Statue_4: -6210820937634677405
-      Statue_5: 3745443115517346739
-      Statue_6: 4309319453413299902
-      Statue_7: -7601154090182083770
-      Statue_8: 4453763675091117254
-      Statue_9: -5424469666760122395
+      Statue (1)_0: 3236620881417372057
+      Statue (1)_1: 311372741343575735
+      Statue (1)_2: -5552936181554314083
+      Statue (1)_3: -7933288471483489039
+      Statue (1)_4: -2140379072497165792
+      Statue (1)_5: -8188495348913347795
+      Statue (1)_6: 5032503889421136180
+      Statue (1)_7: -8967672403466897135
+      Statue (1)_8: -9106021895158734403
+      Statue (1)_9: 6304615141662993098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

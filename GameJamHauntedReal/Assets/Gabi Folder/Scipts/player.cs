@@ -164,6 +164,7 @@ public class player : MonoBehaviour
         {
             dead();
         }
+        gameManager.playHurtSFX();
         gameManager.updateData();
 
     }
@@ -172,6 +173,7 @@ public class player : MonoBehaviour
     {
         treasure++;
         Debug.Log(treasure);
+        gameManager.playTreasureSFX();
         gameManager.updateData();
     }
 

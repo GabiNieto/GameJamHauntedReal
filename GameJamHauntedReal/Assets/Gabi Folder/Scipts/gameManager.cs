@@ -14,6 +14,13 @@ public class gameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI treasureText;
     [SerializeField] TextMeshProUGUI deadText;
 
+    [SerializeField] private AudioSource musicSource;
+    [SerializeField] private AudioSource sfxSource;
+
+    [SerializeField] private AudioClip music;
+    [SerializeField] private AudioClip sfxCoin;
+    [SerializeField] private AudioClip sfxMimic;
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,6 +35,11 @@ public class gameManager : MonoBehaviour
         deadText.enabled = false;
         healthText.text = "Health: " + playerHealth.ToString();
         treasureText.text = "Treasure: " + playerTreasure.ToString();
+
+        //Start Music
+        musicSource.clip = music;
+        musicSource.loop = true;
+        musicSource.Play();
     }
 
 
@@ -43,6 +55,18 @@ public class gameManager : MonoBehaviour
     public void playerDead()
     {
         deadText.enabled = true;
+    }
+
+    public void playTreasureSFX()
+    {
+        sfxSource.clip = sfxCoin;
+        sfxSource.Play();
+    }
+
+    public void playHurtSFX()
+    {
+        sfxSource.clip = sfxMimic;
+        sfxSource.Play();
     }
 
     // Update is called once per frame

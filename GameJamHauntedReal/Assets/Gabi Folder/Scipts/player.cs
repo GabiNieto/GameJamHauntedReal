@@ -15,6 +15,12 @@ public class player : MonoBehaviour
     public int health;
     public int treasure;
 
+    public customTrigger innerCircle;
+    public customTrigger outerCircle;
+    public customTrigger playerHitBox;
+
+
+
 
     GameObject treasureSelection;
 
@@ -42,7 +48,7 @@ public class player : MonoBehaviour
         }
     }
 
-
+    /* Legacy Enter
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("treasure"))
@@ -56,8 +62,70 @@ public class player : MonoBehaviour
             isMimic=true;
         }
     }
+    */
 
 
+    private void Awake()
+    {
+        innerCircle.EnteredTrigger += onInnerCircleTriggerEnter;
+        innerCircle.ExitedTrigger += onInnerCircleTriggerExit;
+        outerCircle.EnteredTrigger += onOuterCircleTriggerEnter;
+        outerCircle.ExitedTrigger += onOuterCircleTriggerExit;
+        playerHitBox.EnteredTrigger += onPlayerHitBoxEnter;
+        playerHitBox.ExitedTrigger += onPlayerHitBoxExit;
+    }
+
+    void onInnerCircleTriggerEnter(Collider2D collider)
+    {
+        //Debug.Log("Hey I entered inner cicle says" + collider.name);
+    }
+
+    void onInnerCircleTriggerExit(Collider2D collider)
+    {
+        //Debug.Log("Hey I exited inner cicle says" + collider.name);
+    }
+
+    void onOuterCircleTriggerEnter(Collider2D collider)
+    {
+        //Debug.Log("Hey I entered outer cicle says" + collider.name);
+    }
+
+    void onOuterCircleTriggerExit(Collider2D collider)
+    {
+        //Debug.Log("Hey I exited outer cicle says" + collider.name);
+    }
+
+    void onPlayerHitBoxEnter(Collider2D collider)
+    {
+        //Debug.Log("Hey I Enter Player says " + collider.name);
+        if (collider.CompareTag("treasure"))
+        {
+            isTreasure = true;
+            treasureSelection = collider.gameObject;
+        }
+        if (collider.CompareTag("mimic"))
+        {
+            isMimic = true;
+        }
+    }
+    void onPlayerHitBoxExit(Collider2D collider)
+    {
+        //Debug.Log("Hey I Exit Player says " + collider.name);
+        if(collider.CompareTag("treasure"))
+        {
+            isTreasure = false;
+        }
+
+        if(collider.CompareTag("mimic"))
+        {
+            isMimic = false;
+        }
+    }
+
+
+
+
+    /* Legacy Exit
     private void OnTriggerExit2D(Collider2D other)
     {
         if(other.CompareTag("treasure"))
@@ -71,7 +139,7 @@ public class player : MonoBehaviour
             isMimic= false;
         }
     }
-
+    */
 
 
     public void Action()

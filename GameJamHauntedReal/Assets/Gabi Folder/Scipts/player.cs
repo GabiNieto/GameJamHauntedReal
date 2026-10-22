@@ -78,21 +78,37 @@ public class player : MonoBehaviour
     void onInnerCircleTriggerEnter(Collider2D collider)
     {
         //Debug.Log("Hey I entered inner cicle says" + collider.name);
+        if(collider.CompareTag("mimic"))
+        {
+            gameManager.isInnerCircle();
+        }
     }
 
     void onInnerCircleTriggerExit(Collider2D collider)
     {
         //Debug.Log("Hey I exited inner cicle says" + collider.name);
+        if(collider.CompareTag("mimic"))
+        {
+            gameManager.leftInnerCircle();
+        }
     }
 
     void onOuterCircleTriggerEnter(Collider2D collider)
     {
         //Debug.Log("Hey I entered outer cicle says" + collider.name);
+        if(collider.CompareTag("mimic"))
+        {
+            gameManager.isOuterCircle();
+        }
     }
 
     void onOuterCircleTriggerExit(Collider2D collider)
     {
         //Debug.Log("Hey I exited outer cicle says" + collider.name);
+        if(collider.CompareTag("mimic"))
+        {
+            gameManager.leftOuterCircle();
+        }
     }
 
     void onPlayerHitBoxEnter(Collider2D collider)

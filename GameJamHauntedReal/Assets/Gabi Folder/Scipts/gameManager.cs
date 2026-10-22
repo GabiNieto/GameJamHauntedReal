@@ -13,6 +13,7 @@ public class gameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI healthText;
     [SerializeField] TextMeshProUGUI treasureText;
     [SerializeField] TextMeshProUGUI deadText;
+    [SerializeField] TextMeshProUGUI detectorText;
 
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
@@ -21,11 +22,15 @@ public class gameManager : MonoBehaviour
     [SerializeField] private AudioClip sfxCoin;
     [SerializeField] private AudioClip sfxMimic;
 
+    private bool innerCircle = false;
+    private bool outerCircle = false;
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        detectorText.enabled = false;
         playerHealth = player.getHealth();
         playerTreasure = player.getTreasure();
         Debug.Log(playerHealth);
@@ -68,6 +73,57 @@ public class gameManager : MonoBehaviour
         sfxSource.clip = sfxMimic;
         sfxSource.Play();
     }
+
+
+    public void isInnerCircle()
+    {
+        innerCircle = true;
+        detectTextUpdate();
+    }
+
+    public void leftInnerCircle()
+    {
+        innerCircle = false;
+        detectTextUpdate();
+    }
+
+    public void isOuterCircle()
+    {
+        outerCircle = true;
+        detectTextUpdate();
+    }
+
+    public void leftOuterCircle()
+    {
+        outerCircle = false;
+        detectTextUpdate();
+    }
+
+    public void detectTextUpdate()
+    {
+        if(!innerCircle &  !outerCircle)
+        {
+            detectorText.enabled = false;
+        }
+        else
+        {
+            detectorText.enabled = true;
+        }
+
+        if(outerCircle & !innerCircle)
+        {
+            detectorText.text = "Mimic Near";
+        }
+        else if(innerCircle)
+        {
+            detectorText.text = "Mimic Close!";
+        }
+    }
+
+
+
+
+
 
     // Update is called once per frame
     void Update()

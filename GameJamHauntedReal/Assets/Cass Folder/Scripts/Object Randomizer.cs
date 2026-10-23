@@ -66,11 +66,11 @@ public class ObjectRandomizer : MonoBehaviour
         {
             Instantiate(mimicVase, transform.position, Quaternion.identity);
         }
-        if(randomNumNotMim == 1)
+        else if(randomNumNotMim == 1)
         {
             Instantiate(mimicStatue, transform.position, Quaternion.identity);
         }
-        else
+        else if(randomNumNotMim == 2)
         {
             Instantiate(mimicChair, transform.position, Quaternion.identity);
         }

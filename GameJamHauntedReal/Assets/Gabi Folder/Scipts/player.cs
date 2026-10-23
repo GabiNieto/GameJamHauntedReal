@@ -17,6 +17,7 @@ public class player : MonoBehaviour
 
 
     public customTrigger innerCircle;
+    public customTrigger middleCircle;
     public customTrigger outerCircle;
     public customTrigger playerHitBox;
 
@@ -93,6 +94,8 @@ public class player : MonoBehaviour
     {
         innerCircle.EnteredTrigger += onInnerCircleTriggerEnter;
         innerCircle.ExitedTrigger += onInnerCircleTriggerExit;
+        middleCircle.EnteredTrigger += onMiddleCircleTriggerEnter;
+        middleCircle.ExitedTrigger += onMiddleCircleTrigerExit;
         outerCircle.EnteredTrigger += onOuterCircleTriggerEnter;
         outerCircle.ExitedTrigger += onOuterCircleTriggerExit;
         playerHitBox.EnteredTrigger += onPlayerHitBoxEnter;
@@ -115,6 +118,18 @@ public class player : MonoBehaviour
         {
             gameManager.leftInnerCircle();
         }
+    }
+
+    void onMiddleCircleTriggerEnter(Collider2D collider)
+    {
+        Debug.Log("Hey I Entered middle circle says" + collider.name);
+        gameManager.isMiddleCircle();
+    }
+
+    void onMiddleCircleTrigerExit(Collider2D collider)
+    {
+        Debug.Log("Hey I exited middle cicle says" + collider.name);
+        gameManager.leftMiddleCircle();
     }
 
     void onOuterCircleTriggerEnter(Collider2D collider)

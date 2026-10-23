@@ -35,24 +35,31 @@ public class detector : MonoBehaviour
         anim.SetBool("FarSuccess", false);
     }
 
-    public void isNear()
+    public void isMid()
     {
         anim.SetBool("MidSuccess", true);
     }
 
-    public void notIsNear()
+    public void notIsMid()
     {
         anim.SetBool("MidSuccess", false);
     }
 
-    public void isClose()
+    public void isNear()
     {
         anim.SetBool("NearSuccess", true);
     }
 
-    public void notIsClose()
+    public void notIsNear()
     {
+        anim.SetBool("NearSuccess", false);
+    }
+
+    public void isNothing()
+    {
+        anim.SetBool("NearSuccess", false);
         anim.SetBool("MidSuccess", false);
+        anim.SetBool("FarSuccess", false);
     }
 
     // Update is called once per frame

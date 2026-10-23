@@ -25,6 +25,7 @@ public class gameManager : MonoBehaviour
     [SerializeField] private AudioClip sfxMimic;
 
     private bool innerCircle = false;
+    private bool middleCircle = false;
     private bool outerCircle = false;
 
 
@@ -90,53 +91,85 @@ public class gameManager : MonoBehaviour
     {
         innerCircle = true;
         detectTextUpdate();
+
+        //UI Detect
     }
 
     public void leftInnerCircle()
     {
         innerCircle = false;
-        outerCircle = true;
         detectTextUpdate();
+
+        //UI Detect
+
+
+    }
+
+    public void isMiddleCircle()
+    {
+        middleCircle = true;
+        detectTextUpdate();
+        //UI Detect
+    }
+
+    public void leftMiddleCircle()
+    {
+        middleCircle=false;
+        detectTextUpdate();
+        //UI Detect
+
+
     }
 
     public void isOuterCircle()
     {
         outerCircle = true;
         detectTextUpdate();
+
+        //UI Dtect
     }
 
     public void leftOuterCircle()
     {
         outerCircle = false;
         detectTextUpdate();
+
+        //UI Detect
+
     }
 
     public void detectTextUpdate()
     {
-        if(innerCircle ||  outerCircle)
+        if(!innerCircle ||  !outerCircle || !middleCircle)
         {
             detectorText.enabled = true;
-        }
-        else
-        {
-            detectorText.enabled=false;
-            detector.isFar();
-            detector.isNear();
-            detector.notIsClose();
+            detector.isNothing();
         }
         if (innerCircle)
         {
-            detectorText.text = "Mimic Close!";
-            detector.isClose();
+            detector.isNear();
+            detector.notIsFar();
+            detector.notIsMid();
+            //detectorText.text = "Mimic Close!";
+            //detector.isClose();
+            //detector.notIsNear();
+            //detector.notIsFar();
+        }
+        else if (middleCircle)
+        {
+            detector.isMid();
             detector.notIsNear();
             detector.notIsFar();
         }
         else if (outerCircle)
         {
-            detectorText.text = "Mimic Near";
-            detector.isNear();
-            detector.notIsFar();
-            detector.notIsClose();
+            detector.isFar();
+            detector.notIsNear();
+            detector.notIsMid();
+            //detectorText.text = "Mimic Near";
+            //detector.isNear();
+            //detector.notIsFar();
+            //detector.notIsClose();
         }
     }
 

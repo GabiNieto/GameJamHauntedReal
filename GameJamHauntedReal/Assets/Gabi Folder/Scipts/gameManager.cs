@@ -41,13 +41,16 @@ public class gameManager : MonoBehaviour
 
 
         deadText.enabled = false;
-        healthText.text = "Health: " + playerHealth.ToString();
+        //healthText.text = "Health: " + playerHealth.ToString();
         treasureText.text = "Treasure: " + playerTreasure.ToString();
 
         //Start Music
         musicSource.clip = music;
         musicSource.loop = true;
         musicSource.Play();
+
+
+        healthText.enabled = false;
     }
 
 
@@ -56,7 +59,7 @@ public class gameManager : MonoBehaviour
         playerHealth = player.getHealth();
         playerTreasure = player.getTreasure();
 
-        healthText.text = "Health: " + playerHealth.ToString();
+        //healthText.text = "Health: " + playerHealth.ToString();
         treasureText.text = "Treasure: " + playerTreasure.ToString();
 
         if(playerHealth == 2)
@@ -142,7 +145,7 @@ public class gameManager : MonoBehaviour
     {
         if(!innerCircle ||  !outerCircle || !middleCircle)
         {
-            detectorText.enabled = true;
+            //detectorText.enabled = true;
             detector.isNothing();
         }
         if (innerCircle)

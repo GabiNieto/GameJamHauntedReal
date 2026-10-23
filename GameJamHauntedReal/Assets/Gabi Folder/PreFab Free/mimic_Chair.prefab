@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::mimic
   anim: {fileID: 6971055296276632927}
-  attackVase: {fileID: 7400000, guid: a63e381554936b548aa9a2e2051ef4cf, type: 2}
+  attackVase: {fileID: 0}
   attackStatue: {fileID: 0}
   attackChair: {fileID: 0}
   isVase: 0

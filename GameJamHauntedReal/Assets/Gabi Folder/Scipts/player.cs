@@ -15,10 +15,15 @@ public class player : MonoBehaviour
     public int health;
     public int treasure;
 
+
     public customTrigger innerCircle;
     public customTrigger outerCircle;
     public customTrigger playerHitBox;
 
+    private bool isMoving;
+
+    public Animator animator;
+    public SpriteRenderer sr;
 
 
 
@@ -41,6 +46,25 @@ public class player : MonoBehaviour
         speedX = Input.GetAxisRaw("Horizontal") * movSpeed;
         speedY = Input.GetAxisRaw("Vertical") * movSpeed;
         rb.linearVelocity = new Vector2(speedX, speedY);
+
+        if(speedX == 0 &&  speedY == 0)
+        {
+            isMoving = false;
+        }
+        else
+        {
+            isMoving = true;
+        }
+        if(speedX > 0)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
+
+            animator.SetBool("isMoving", isMoving);
 
         if(Input.GetKeyDown(KeyCode.Space))
         {

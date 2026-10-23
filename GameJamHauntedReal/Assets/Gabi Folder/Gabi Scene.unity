@@ -158,6 +158,8 @@ MonoBehaviour:
   innerCircle: {fileID: 1160451956}
   outerCircle: {fileID: 1628852714}
   playerHitBox: {fileID: 942410103}
+  animator: {fileID: 53756184}
+  sr: {fileID: 53756182}
 --- !u!50 &53756181
 Rigidbody2D:
   serializedVersion: 5

@@ -4,31 +4,55 @@ public class detector : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    public SpriteRenderer spriteRenderer;
-    public Sprite health3;
-    public Sprite health2;
-    public Sprite health1;
+    public Animator anim;
 
 
 
-    public void healthIs3()
+    void Start()
     {
-        spriteRenderer.sprite = health3;
+        //Debug.Log(anim);
+        //anim.SetInteger("Hp", 2);
+        //Debug.Log(anim.GetInteger("Hp"));
     }
 
     public void healthIs2()
     {
-        spriteRenderer.sprite = health2;
+        anim.SetInteger("Hp", 2);
     }
 
     public void healthIs1()
     {
-        spriteRenderer.sprite = health1;
+        anim.SetInteger("Hp", 1);
     }
 
-    void Start()
+    public void isFar()
     {
-        
+        anim.SetBool("FarSuccess", true);
+    }
+
+    public void notIsFar()
+    {
+        anim.SetBool("FarSuccess", false);
+    }
+
+    public void isNear()
+    {
+        anim.SetBool("MidSuccess", true);
+    }
+
+    public void notIsNear()
+    {
+        anim.SetBool("MidSuccess", false);
+    }
+
+    public void isClose()
+    {
+        anim.SetBool("NearSuccess", true);
+    }
+
+    public void notIsClose()
+    {
+        anim.SetBool("MidSuccess", false);
     }
 
     // Update is called once per frame

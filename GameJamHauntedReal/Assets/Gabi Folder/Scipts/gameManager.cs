@@ -120,14 +120,23 @@ public class gameManager : MonoBehaviour
         else
         {
             detectorText.enabled=false;
+            detector.isFar();
+            detector.isNear();
+            detector.notIsClose();
         }
         if (innerCircle)
         {
             detectorText.text = "Mimic Close!";
+            detector.isClose();
+            detector.notIsNear();
+            detector.notIsFar();
         }
         else if (outerCircle)
         {
             detectorText.text = "Mimic Near";
+            detector.isNear();
+            detector.notIsFar();
+            detector.notIsClose();
         }
     }
 

@@ -1741,10 +1741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a39ecffe961711b46a88607f75631654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::detector
-  spriteRenderer: {fileID: 1167058392}
-  health3: {fileID: -7412228626190308488, guid: 29ccc5eb7b7157e4ea64ed1007e6f711, type: 3}
-  health2: {fileID: -7824590471908525360, guid: 29ccc5eb7b7157e4ea64ed1007e6f711, type: 3}
-  health1: {fileID: 1635319352232851050, guid: 29ccc5eb7b7157e4ea64ed1007e6f711, type: 3}
+  anim: {fileID: 1167058395}
 --- !u!95 &1167058395
 Animator:
   serializedVersion: 7
@@ -1755,7 +1752,7 @@ Animator:
   m_GameObject: {fileID: 1167058391}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a81e8e4022de20b4d9e0457c635fe490, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

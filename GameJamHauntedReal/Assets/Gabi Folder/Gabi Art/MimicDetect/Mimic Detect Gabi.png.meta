@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: 29ccc5eb7b7157e4ea64ed1007e6f711
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7412228626190308488
+    second: Mimic Detector (1)_0
+  - first:
+      213: -7824590471908525360
+    second: Mimic Detector (1)_1
+  - first:
+      213: 1635319352232851050
+    second: Mimic Detector (1)_2
+  - first:
+      213: -8303884700074184791
+    second: Mimic Detector (1)_3
+  - first:
+      213: 4880200672121264884
+    second: Mimic Detector (1)_4
+  - first:
+      213: -1634939374927469507
+    second: Mimic Detector (1)_5
+  - first:
+      213: 469202431596782235
+    second: Mimic Detector (1)_6
+  - first:
+      213: -1486896818628335954
+    second: Mimic Detector (1)_7
+  - first:
+      213: -911630800953772348
+    second: Mimic Detector (1)_8
+  - first:
+      213: -4164687258223261676
+    second: Mimic Detector (1)_9
+  - first:
+      213: 8801311894962618097
+    second: Mimic Detector (1)_10
+  - first:
+      213: 4525083188252372610
+    second: Mimic Detector (1)_11
+  - first:
+      213: 8349896632401316288
+    second: Mimic Detector (1)_12
+  - first:
+      213: 269074174478578762
+    second: Mimic Detector (1)_13
+  - first:
+      213: 9112009774052518147
+    second: Mimic Detector (1)_14
+  - first:
+      213: -9050211493070978939
+    second: Mimic Detector (1)_15
+  - first:
+      213: -6565716894680813928
+    second: Mimic Detector (1)_16
+  - first:
+      213: 6859425992487287472
+    second: Mimic Detector (1)_17
+  - first:
+      213: -9097636395397601510
+    second: Mimic Detector (1)_18
+  - first:
+      213: 6601693135924437221
+    second: Mimic Detector (1)_19
+  - first:
+      213: 8312473335056805252
+    second: Mimic Detector (1)_20
+  - first:
+      213: -5737236581754113102
+    second: Mimic Detector (1)_21
+  - first:
+      213: -719945003761512541
+    second: Mimic Detector (1)_22
+  - first:
+      213: 749406921466266815
+    second: Mimic Detector (1)_23
+  - first:
+      213: 7559475802630133449
+    second: Mimic Detector (1)_24
+  - first:
+      213: -4273962318996509114
+    second: Mimic Detector (1)_25
+  - first:
+      213: -7419706900135175902
+    second: Mimic Detector (1)_26
+  - first:
+      213: -2854981438590672971
+    second: Mimic Detector (1)_27
+  - first:
+      213: -531954861939479756
+    second: Mimic Detector (1)_28
+  - first:
+      213: 1489149699850746085
+    second: Mimic Detector (1)_29
+  - first:
+      213: -6749245226306178674
+    second: Mimic Detector (1)_30
+  - first:
+      213: -7802887767063766599
+    second: Mimic Detector (1)_31
+  - first:
+      213: 4845871287298530404
+    second: Mimic Detector (1)_32
+  - first:
+      213: -3927494653286414158
+    second: Mimic Detector (1)_33
+  - first:
+      213: -1257651097648507666
+    second: Mimic Detector (1)_34
+  - first:
+      213: 6091404058790465551
+    second: Mimic Detector (1)_35
+  - first:
+      213: -7093992709052119599
+    second: Mimic Detector (1)_36
+  - first:
+      213: -5934092871552489160
+    second: Mimic Detector (1)_37
+  - first:
+      213: 163270974275189881
+    second: Mimic Detector (1)_38
+  - first:
+      213: 8264961404916757017
+    second: Mimic Detector (1)_39
+  - first:
+      213: 2594458199736159516
+    second: Mimic Detector (1)_40
+  - first:
+      213: 930295033048055869
+    second: Mimic Detector (1)_41
+  - first:
+      213: 8538368052444848781
+    second: Mimic Detector (1)_42
+  - first:
+      213: -373560862888711096
+    second: Mimic Detector (1)_43
+  - first:
+      213: 223129926628452613
+    second: Mimic Detector (1)_44
+  - first:
+      213: 7419544036848564293
+    second: Mimic Detector (1)_45
+  - first:
+      213: -1489247401878382014
+    second: Mimic Detector (1)_46
+  - first:
+      213: -5634349632392563838
+    second: Mimic Detector (1)_47
+  - first:
+      213: -3739764385219063450
+    second: Mimic Detector (1)_48
+  - first:
+      213: 7259990034734611732
+    second: Mimic Detector (1)_49
+  - first:
+      213: 3591352597352421812
+    second: Mimic Detector (1)_50
+  - first:
+      213: -1994502871822324348
+    second: Mimic Detector (1)_51
+  - first:
+      213: -5704808557740279054
+    second: Mimic Detector (1)_52
+  - first:
+      213: 5815700805395263783
+    second: Mimic Detector (1)_53
+  - first:
+      213: 6549432794155594105
+    second: Mimic Detector (1)_54
+  - first:
+      213: -4272891348193752427
+    second: Mimic Detector (1)_55
+  - first:
+      213: -6241870584497025633
+    second: Mimic Detector (1)_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mimic Detector (1)_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87be1fd0659722990800000000000000
+      internalID: -7412228626190308488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da7cf81c68796390800000000000000
+      internalID: -7824590471908525360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66392c5942d1b610800000000000000
+      internalID: 1635319352232851050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afe6447cdca2cc80800000000000000
+      internalID: -8303884700074184791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa1966a7a4f9b340800000000000000
+      internalID: 4880200672121264884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3426200d478f49e0800000000000000
+      internalID: -1634939374927469507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9263172021f28600800000000000000
+      internalID: 469202431596782235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 343
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6effba83b7d5be0800000000000000
+      internalID: -1486896818628335954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c678d6dd9c3953f0800000000000000
+      internalID: -911630800953772348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418c10d010f0436c0800000000000000
+      internalID: -4164687258223261676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1febaa0898a842a70800000000000000
+      internalID: 8801311894962618097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eefde4f235cce30800000000000000
+      internalID: 4525083188252372610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9c28d5fbac0e370800000000000000
+      internalID: 8349896632401316288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44f60c3981fbb300800000000000000
+      internalID: 269074174478578762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309a94cac9c547e70800000000000000
+      internalID: 9112009774052518147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 295
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580c85dd890376280800000000000000
+      internalID: -9050211493070978939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee4cc5543e1e4a0800000000000000
+      internalID: -6565716894680813928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba394de893913f50800000000000000
+      internalID: 6859425992487287472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1729a456e3beb180800000000000000
+      internalID: -9097636395397601510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e029ea0eeced9b50800000000000000
+      internalID: 6601693135924437221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48da7f4f476db5370800000000000000
+      internalID: 8312473335056805252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b37b20e9bd3160b0800000000000000
+      internalID: -5737236581754113102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af4af065dd3206f0800000000000000
+      internalID: -719945003761512541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_23
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 247
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb44732ef9d666a00800000000000000
+      internalID: 749406921466266815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c61eefc037a8e860800000000000000
+      internalID: 7559475802630133449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64eeec05ae5dfa4c0800000000000000
+      internalID: -4273962318996509114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2299de7b2e7e70990800000000000000
+      internalID: -7419706900135175902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf187802811168d0800000000000000
+      internalID: -2854981438590672971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_28
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b2e891fdd1e98f0800000000000000
+      internalID: -531954861939479756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_29
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8bbfc13c58aa410800000000000000
+      internalID: 1489149699850746085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81f408c93dd552a0800000000000000
+      internalID: -6749245226306178674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 199
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b95ce5dae296b390800000000000000
+      internalID: -7802887767063766599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c91b2e24eff3340800000000000000
+      internalID: 4845871287298530404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b80e9deb6cbe79c0800000000000000
+      internalID: -3927494653286414158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4d7417dfceb8ee0800000000000000
+      internalID: -1257651097648507666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f001493c7b3098450800000000000000
+      internalID: 6091404058790465551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5ccb977331d8d90800000000000000
+      internalID: -7093992709052119599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839afe639fdd5ada0800000000000000
+      internalID: -5934092871552489160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cfdc7061e044200800000000000000
+      internalID: 163270974275189881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912706eab9a03b270800000000000000
+      internalID: 8264961404916757017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_40
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d8fd39cfd510420800000000000000
+      internalID: 2594458199736159516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30c325576219ec00800000000000000
+      internalID: 930295033048055869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82e48761806e7670800000000000000
+      internalID: 8538368052444848781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ca789df58d0daf0800000000000000
+      internalID: -373560862888711096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_44
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509a27f6c77b81300800000000000000
+      internalID: 223129926628452613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_45
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548f9b7bdf387f660800000000000000
+      internalID: 7419544036848564293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a9d5cd061255be0800000000000000
+      internalID: -1489247401878382014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_47
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 103
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28373e48cd4cec1b0800000000000000
+      internalID: -5634349632392563838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6615c531b10b91cc0800000000000000
+      internalID: -3739764385219063450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d7b35b87aa0c460800000000000000
+      internalID: 7259990034734611732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_50
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b91e54d82c07d130800000000000000
+      internalID: 3591352597352421812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48da885943a1254e0800000000000000
+      internalID: -1994502871822324348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa384497d274d0b0800000000000000
+      internalID: -5704808557740279054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_53
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721b981d11585b050800000000000000
+      internalID: 5815700805395263783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97130f70d6244ea50800000000000000
+      internalID: 6549432794155594105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_55
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 55
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a421325f3a3b4c0800000000000000
+      internalID: -4272891348193752427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic Detector (1)_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d481536cb6069a0800000000000000
+      internalID: -6241870584497025633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mimic Detector (1)_0: -7412228626190308488
+      Mimic Detector (1)_1: -7824590471908525360
+      Mimic Detector (1)_10: 8801311894962618097
+      Mimic Detector (1)_11: 4525083188252372610
+      Mimic Detector (1)_12: 8349896632401316288
+      Mimic Detector (1)_13: 269074174478578762
+      Mimic Detector (1)_14: 9112009774052518147
+      Mimic Detector (1)_15: -9050211493070978939
+      Mimic Detector (1)_16: -6565716894680813928
+      Mimic Detector (1)_17: 6859425992487287472
+      Mimic Detector (1)_18: -9097636395397601510
+      Mimic Detector (1)_19: 6601693135924437221
+      Mimic Detector (1)_2: 1635319352232851050
+      Mimic Detector (1)_20: 8312473335056805252
+      Mimic Detector (1)_21: -5737236581754113102
+      Mimic Detector (1)_22: -719945003761512541
+      Mimic Detector (1)_23: 749406921466266815
+      Mimic Detector (1)_24: 7559475802630133449
+      Mimic Detector (1)_25: -4273962318996509114
+      Mimic Detector (1)_26: -7419706900135175902
+      Mimic Detector (1)_27: -2854981438590672971
+      Mimic Detector (1)_28: -531954861939479756
+      Mimic Detector (1)_29: 1489149699850746085
+      Mimic Detector (1)_3: -8303884700074184791
+      Mimic Detector (1)_30: -6749245226306178674
+      Mimic Detector (1)_31: -7802887767063766599
+      Mimic Detector (1)_32: 4845871287298530404
+      Mimic Detector (1)_33: -3927494653286414158
+      Mimic Detector (1)_34: -1257651097648507666
+      Mimic Detector (1)_35: 6091404058790465551
+      Mimic Detector (1)_36: -7093992709052119599
+      Mimic Detector (1)_37: -5934092871552489160
+      Mimic Detector (1)_38: 163270974275189881
+      Mimic Detector (1)_39: 8264961404916757017
+      Mimic Detector (1)_4: 4880200672121264884
+      Mimic Detector (1)_40: 2594458199736159516
+      Mimic Detector (1)_41: 930295033048055869
+      Mimic Detector (1)_42: 8538368052444848781
+      Mimic Detector (1)_43: -373560862888711096
+      Mimic Detector (1)_44: 223129926628452613
+      Mimic Detector (1)_45: 7419544036848564293
+      Mimic Detector (1)_46: -1489247401878382014
+      Mimic Detector (1)_47: -5634349632392563838
+      Mimic Detector (1)_48: -3739764385219063450
+      Mimic Detector (1)_49: 7259990034734611732
+      Mimic Detector (1)_5: -1634939374927469507
+      Mimic Detector (1)_50: 3591352597352421812
+      Mimic Detector (1)_51: -1994502871822324348
+      Mimic Detector (1)_52: -5704808557740279054
+      Mimic Detector (1)_53: 5815700805395263783
+      Mimic Detector (1)_54: 6549432794155594105
+      Mimic Detector (1)_55: -4272891348193752427
+      Mimic Detector (1)_56: -6241870584497025633
+      Mimic Detector (1)_6: 469202431596782235
+      Mimic Detector (1)_7: -1486896818628335954
+      Mimic Detector (1)_8: -911630800953772348
+      Mimic Detector (1)_9: -4164687258223261676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -27,6 +27,8 @@ public class ObjectRandomizer : MonoBehaviour
     void Start()
     {
 
+        Debug.Log(transform.position);
+
         int randomNumber = Random.Range(0, 11);
 
         if (randomNumber == 10)
@@ -45,15 +47,15 @@ public class ObjectRandomizer : MonoBehaviour
         int randomNumMim = Random.Range(0, 3);
         if(randomNumMim == 0)
         {
-
+            Instantiate(baseVase, transform.position, Quaternion.identity);
         }
         if(randomNumMim == 1)
         {
-
+            Instantiate(baseStatue, transform.position, Quaternion.identity);
         }
         else
         {
-
+            Instantiate(baseChair, transform.position, Quaternion.identity);
         }
     }
 
@@ -62,15 +64,15 @@ public class ObjectRandomizer : MonoBehaviour
         int randomNumNotMim = Random.Range(0, 3);
         if(randomNumNotMim == 0)
         {
-
+            Instantiate(mimicVase, transform.position, Quaternion.identity);
         }
         if(randomNumNotMim == 1)
         {
-
+            Instantiate(mimicStatue, transform.position, Quaternion.identity);
         }
         else
         {
-
+            Instantiate(mimicChair, transform.position, Quaternion.identity);
         }
 
     }

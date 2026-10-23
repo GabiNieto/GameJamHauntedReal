@@ -115515,59 +115515,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &701904522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 701904524}
-  - component: {fileID: 701904523}
-  m_Layer: 0
-  m_Name: randomizerTest
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &701904523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701904522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7c992e4eb1f2a4ca2ddfa9e207db27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjectRandomizer
-  RandomObjectPosition: {x: 0, y: 0}
-  mimicType: 0
-  IsAMimic: 0
-  baseVase: {fileID: 4422145299938624965, guid: c246baf8d92022e4d83390389ea1bc5d, type: 3}
-  baseStatue: {fileID: 4422145299938624965, guid: c246baf8d92022e4d83390389ea1bc5d, type: 3}
-  baseChair: {fileID: 4422145299938624965, guid: c246baf8d92022e4d83390389ea1bc5d, type: 3}
-  mimicVase: {fileID: 3047424302717907414, guid: 5ad7d4e38ce5a954c837e23a92bfc022, type: 3}
-  mimicStatue: {fileID: 3047424302717907414, guid: 5ad7d4e38ce5a954c837e23a92bfc022, type: 3}
-  mimicChair: {fileID: 3047424302717907414, guid: 5ad7d4e38ce5a954c837e23a92bfc022, type: 3}
---- !u!4 &701904524
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701904522}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.68, y: -12.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &741748034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -117957,7 +117904,6 @@ SceneRoots:
   - {fileID: 1764349416}
   - {fileID: 1355373268}
   - {fileID: 1986658220}
-  - {fileID: 701904524}
   - {fileID: 1641341412}
   - {fileID: 1826005238}
   - {fileID: 690250680}

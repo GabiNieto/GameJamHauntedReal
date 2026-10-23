@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1702803688203207883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2472910142793218700}
+  - component: {fileID: 2669413384647972002}
+  m_Layer: 0
+  m_Name: randomizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2472910142793218700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702803688203207883}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.68, y: -12.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2669413384647972002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702803688203207883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7c992e4eb1f2a4ca2ddfa9e207db27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectRandomizer
+  RandomObjectPosition: {x: 0, y: 0}
+  mimicType: 0
+  IsAMimic: 0
+  baseVase: {fileID: 4917525457525075015, guid: cc4b3606f99e68044bad72e495eadce7, type: 3}
+  baseStatue: {fileID: 8903781512441108233, guid: 614dcb788a884054eabce183d3023364, type: 3}
+  baseChair: {fileID: 1833184418595641231, guid: 632b58a390f4c1f44ada271031aae2fa, type: 3}
+  mimicVase: {fileID: 3519232850305492322, guid: 37c69abfef7e7f04c9897e7f5a7e183a, type: 3}
+  mimicStatue: {fileID: 167710722241710114, guid: 253b58f0505a5634f8439557a144eb2d, type: 3}
+  mimicChair: {fileID: 8470969898177803279, guid: 39648c5b36082bd4f8db5f1add860e36, type: 3}

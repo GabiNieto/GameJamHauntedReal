@@ -42,7 +42,7 @@ public class ObjectRandomizer : MonoBehaviour
     }
 
 
-    public void isMimic()
+    public void notMimic()
     {
         int randomNumMim = Random.Range(0, 3);
         if(randomNumMim == 0)
@@ -59,7 +59,7 @@ public class ObjectRandomizer : MonoBehaviour
         }
     }
 
-    public void notMimic()
+    public void isMimic()
     {
         int randomNumNotMim = Random.Range(0, 3);
         if(randomNumNotMim == 0)

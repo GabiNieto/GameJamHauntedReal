@@ -26,7 +26,7 @@ public class player : MonoBehaviour
     public Animator animator;
     public SpriteRenderer sr;
 
-
+    private GameObject attacker;
 
     GameObject treasureSelection;
 
@@ -161,6 +161,7 @@ public class player : MonoBehaviour
         if (collider.CompareTag("mimic"))
         {
             isMimic = true;
+            attacker = collider.gameObject;
         }
     }
     void onPlayerHitBoxExit(Collider2D collider)
@@ -208,6 +209,7 @@ public class player : MonoBehaviour
         if(isMimic)
         {
             takeDamage();
+            attacker.GetComponent<mimic>().WhenAction();
         }
     }
 

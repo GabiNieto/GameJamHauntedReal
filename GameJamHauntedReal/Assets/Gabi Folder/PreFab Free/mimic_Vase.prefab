@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3909043933399604952}
   - component: {fileID: 1432228344898127932}
   - component: {fileID: 3253780436488781939}
+  - component: {fileID: -1461575917838765363}
+  - component: {fileID: 3207617016179108390}
   m_Layer: 0
   m_Name: mimic_Vase
   m_TagString: mimic
@@ -139,3 +141,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &-1461575917838765363
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3519232850305492322}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1ea73b3c981af8841b1555cf10975886, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3207617016179108390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3519232850305492322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea047399be1b5a47b136ac4cc226fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::mimic
+  anim: {fileID: -1461575917838765363}
+  attackVase: {fileID: 0}
+  attackStatue: {fileID: 0}
+  attackChair: {fileID: 0}
+  isVase: 1
+  isStatue: 0
+  isChair: 0

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1777196769334618465}
   - component: {fileID: 2902077566246248921}
   - component: {fileID: 8663556252194188933}
+  - component: {fileID: -7391655137505274016}
+  - component: {fileID: -1222644458263980221}
   m_Layer: 0
   m_Name: mimi_Statue
   m_TagString: mimic
@@ -139,3 +141,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-7391655137505274016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167710722241710114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea047399be1b5a47b136ac4cc226fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::mimic
+  anim: {fileID: -1222644458263980221}
+  attackVase: {fileID: 0}
+  attackStatue: {fileID: 7400000, guid: dea0a614ee219914ca6d56cd9957f858, type: 2}
+  attackChair: {fileID: 0}
+  isVase: 0
+  isStatue: 1
+  isChair: 0
+--- !u!95 &-1222644458263980221
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167710722241710114}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b3fb3136437c8441849175150cb1554, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

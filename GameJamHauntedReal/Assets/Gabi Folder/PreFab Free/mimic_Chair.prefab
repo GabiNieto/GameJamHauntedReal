@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 386654539652429158}
   - component: {fileID: 6069592831937448513}
   - component: {fileID: 3365325235971437709}
+  - component: {fileID: 6971055296276632927}
+  - component: {fileID: -687363888929838534}
   m_Layer: 0
   m_Name: mimic_Chair
   m_TagString: mimic
@@ -139,3 +141,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &6971055296276632927
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8470969898177803279}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a3722a6d3af233b40a4041febafd66cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-687363888929838534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8470969898177803279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea047399be1b5a47b136ac4cc226fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::mimic
+  anim: {fileID: 6971055296276632927}
+  attackVase: {fileID: 7400000, guid: a63e381554936b548aa9a2e2051ef4cf, type: 2}
+  attackStatue: {fileID: 0}
+  attackChair: {fileID: 0}
+  isVase: 0
+  isStatue: 0
+  isChair: 1

@@ -7,6 +7,8 @@ public class gameManager : MonoBehaviour
 
     public player player;
 
+    public detector detector;
+
     private int playerHealth;
     private int playerTreasure;
 
@@ -55,6 +57,15 @@ public class gameManager : MonoBehaviour
 
         healthText.text = "Health: " + playerHealth.ToString();
         treasureText.text = "Treasure: " + playerTreasure.ToString();
+
+        if(playerHealth == 2)
+        {
+            detector.healthIs2();
+        }
+        if(playerHealth == 1)
+        {
+            detector.healthIs1();
+        }
     }
 
     public void playerDead()
@@ -84,6 +95,7 @@ public class gameManager : MonoBehaviour
     public void leftInnerCircle()
     {
         innerCircle = false;
+        outerCircle = true;
         detectTextUpdate();
     }
 
@@ -101,22 +113,21 @@ public class gameManager : MonoBehaviour
 
     public void detectTextUpdate()
     {
-        if(!innerCircle &  !outerCircle)
-        {
-            detectorText.enabled = false;
-        }
-        else
+        if(innerCircle ||  outerCircle)
         {
             detectorText.enabled = true;
         }
-
-        if(outerCircle & !innerCircle)
+        else
         {
-            detectorText.text = "Mimic Near";
+            detectorText.enabled=false;
         }
-        else if(innerCircle)
+        if (innerCircle)
         {
             detectorText.text = "Mimic Close!";
+        }
+        else if (outerCircle)
+        {
+            detectorText.text = "Mimic Near";
         }
     }
 

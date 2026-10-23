@@ -49,11 +49,11 @@ public class ObjectRandomizer : MonoBehaviour
         {
             Instantiate(baseVase, transform.position, Quaternion.identity);
         }
-        if(randomNumMim == 1)
+        else if(randomNumMim == 1)
         {
             Instantiate(baseStatue, transform.position, Quaternion.identity);
         }
-        else
+        else if(randomNumMim==2)
         {
             Instantiate(baseChair, transform.position, Quaternion.identity);
         }
